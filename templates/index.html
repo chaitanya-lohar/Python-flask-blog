@@ -1,0 +1,72 @@
+
+{% extends "layout.html" %}
+
+
+{% block body %}
+  <!-- Main Content -->
+<!--<div>-->
+<!--  <table align="center">-->
+
+<!--      <tr align="center">-->
+<!--        <th>serial no</th>-->
+<!--        <th>title</th>-->
+<!--        <th>date </th>-->
+<!--        <th>content</th>-->
+<!--      </tr>-->
+
+<!--    {% for data in post %}-->
+<!--    <tr align="center">-->
+<!--      <td>{{data.sno}}</td>-->
+<!--      <td><a href="post/{{data.slug}}">{{data.title}}</a></td>-->
+<!--      <td>{{data.date}}</td>-->
+<!--      <td>{{data.content[:45]}}....</td>-->
+<!--    </tr>-->
+
+<!--  {% endfor %}-->
+
+
+<!--  </table>-->
+
+
+
+
+<!--</div>-->
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <!--todo:fetch from databse -->
+            {% for data in post %}
+
+            <div class="post-preview">
+              <a href="/post/{{data.slug}}">
+                <h2 class="post-title">
+                  {{data.title}}
+                </h2>
+                <h3 class="post-subtitle">
+
+                </h3>
+              </a>
+              <p class="post-meta">Posted by
+                <a href="#">admin</a>
+                on {{data.date}}</p>
+            </div>
+              {{data.content[0:65]}}....
+
+        {% endfor %}
+
+        
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{next}}">Next Posts &rarr;</a>
+          <a class="btn btn-primary float-left" href="{{prev}}">&larr;Previous Posts </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+{% endblock %}
+  

@@ -1,0 +1,23 @@
+
+
+{
+  "parameter":{
+
+    "localserver":"True",
+    "local_uri": "mysql+mysqlconnector://root:@localhost/smartcoding",
+    "host_uri": "mysql://root:@localhost/smartcoding",
+    "blog_name": "Coding Blog",
+    "tage_name": "blog liked by programmer",
+    "gmail_user": "chaitanyalohar01@gmail.com",
+    "gmail_password": "",
+    "no_of_post":5,
+    "twitter": "https://www.twitter.com",
+    "fb": "https://www.facebook.com/chetan.lohar.73550",
+    "linkedin": "https://www.linkedin.com/in/chaitanya-lohar-a297aa187/",
+    "admin_title": "Admin Panel",
+    "admin_subtitle":"You can add ,edit and delete here"
+  }
+
+
+
+}
