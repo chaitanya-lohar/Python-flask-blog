@@ -8,12 +8,12 @@
     "host_uri": "mysql://root:@localhost/smartcoding",
     "blog_name": "Coding Blog",
     "tage_name": "blog liked by programmer",
-    "gmail_user": "chaitanyalohar01@gmail.com",
+    "gmail_user": "....here email-Id....",
     "gmail_password": "",
     "no_of_post":5,
-    "twitter": "https://www.twitter.com",
-    "fb": "https://www.facebook.com/chetan.lohar.73550",
-    "linkedin": "https://www.linkedin.com/in/chaitanya-lohar-a297aa187/",
+    "twitter": "https://www....twitter url......",
+    "fb": "https://www......................facebook id url........",
+    "linkedin": "https://www...........linkedin url............",
     "admin_title": "Admin Panel",
     "admin_subtitle":"You can add ,edit and delete here"
   }
